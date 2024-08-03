@@ -1,15 +1,5 @@
 package main
 
-// A circuit breaker is a system that monitors for failures in a function. If the function
-// has failed too many times in a row in the past, the circuit breaker goes in fail-fast
-// mode which stops any invocations in the future, instead it quickly returns an error.
-// This is often used to prevent cascading failures to external services.
-
-// Create a circuit breaker that accepts a function and a consecutive failure threshold (int).
-
-// This exercise can be completed in any language, below we provide some example signatures
-// in popular languages. Feel free to work in whichever editor/IDE you prefer.
-
 import (
 	"context"
 	"errors"
